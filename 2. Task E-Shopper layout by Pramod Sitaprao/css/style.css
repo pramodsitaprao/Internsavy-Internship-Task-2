@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+body{font-family: 'Roboto', sans-serif; font-weight: 300; 
+/* background-image: url(../images/img_parallax.jpg);
+background-attachment: fixed; */
+}
+.brands,.categories,.all_products,.top_section{/*border: solid;*/padding: 20px 0;}
+.brand_list a{color: #666;}
+.brand_list a:hover,.categories a:hover{color: #000;}
+.slider_content{text-align: center; padding-top: 120px; padding-left: 120px;}
+/* .menu{border: solid; padding: 20px 0;} */
+.menu .bg-body-tertiary{background-color: #fff !important; border-bottom: 1px solid #ccc;}
+
+.top_section a{color: #000;}
+.top_section a:hover{color: #FFAC40;}
+
+.button_indicator{background-color: #000 !important;}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+footer h2{
+    font-size: 20px;
+}
+footer a{
+    color: #999 !important; padding-left: 0 !important;
+}
+footer a:hover{
+    color: #666 !important;
+}
+
+/* to make carousel button backgorund black to control page (to go previous and next page) */
+
+    /* .carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    /* background-color: #fff; */
+    /* color: #000; */
+
+  /* .carousel-control-next, .carousel-control-prev {
+    color: #000;
+    text-align: center;
+  } */
+
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");}
+
+    .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");}
+
+        .menu{
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
